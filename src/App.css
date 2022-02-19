@@ -1,0 +1,136 @@
+#searchBtn {
+  background-color: #6369D1;
+  color: white;
+  font-size: 20px;
+  margin: 50px 20px;
+
+}
+#clearBtn {
+  background-color: white;
+  color: #6369D1;
+  min-width: unset;
+  outline: none!important;
+  border-color: transparent;
+  font-size: 25px;
+  padding: 20px;
+}
+.btn {
+  border-radius: 6px;
+  min-width: 100px;
+  padding: 12px 0;
+}
+.cardsDiv {
+  margin: 0 auto;
+  width: 50%;
+}
+.card {
+  background-color: #f2f3f8;
+  border: none;
+  border-radius: 4px;
+  min-height: 220px;
+  margin: 40px 10px;
+}
+.card-body {
+  color: #5f6266;
+  padding: 0.5rem 2rem;
+}
+.card-title {
+  color: #6369D1;
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.owner-avatar {
+  height: 20px;
+  margin: 3px 5px 0 0;
+}
+.repo-owner {
+  text-decoration: none;
+  color: unset;
+}
+.star-count {
+  margin: 10px 0;
+  color: #191716;
+  font-weight: bold;
+}
+.star-icon {
+  margin: 0 5px 0 0;
+  color: #E6AF2E;
+}
+.card-text {
+  font-size: 12pt;
+}
+.created-at{
+  font-size: 10pt;
+  margin-top: 30px;
+}
+.inputField {
+  background-color: #f2f3f8;
+  border-radius: 6px;
+  padding-left: 20px;
+  width: 60%;
+  display: flex;
+}
+.mainDiv {
+  background-color: white;
+  border-radius: 10px;
+  margin: 25px auto;
+  min-height: 50vh;
+  width: 80%;
+  padding: 40px 0;
+  position: relative;
+}
+.navbar {
+  background-color: #3D348B;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.searchBar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 25px 0;
+}
+.searchIcon {
+  color: #3D348B;
+  background-color: #f2f3f8;
+  border: none;
+  font-size: 16pt;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+}
+body {
+  background-color: #f2f3f8;
+}
+form {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+input {
+  background-color: #f2f3f8;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 20px;
+  width: 100%;
+  font-size: 20px;
+}
+input:focus,
+button:focus,
+button:active,
+button:active,
+button:hover {
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+p {
+  font-size: 10pt;
+  padding-right: 30px;
+}
